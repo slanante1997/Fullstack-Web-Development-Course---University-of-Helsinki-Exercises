@@ -1,11 +1,11 @@
-# University of Helsinki - Fullstack Course Exercise 1.6 - 1.14: State and Event Handlers
+# University of Helsinki - Fullstack Course Part 2: Rendering collections
 
-This repository contains my solution to [Exercise 1.6 - 1.14](https://fullstackopen.com/en/part1/a_more_complex_state_debugging_react_apps#exercises-1-6-1-14) from the University of Helsinki's Fullstack Course. The primary goal of these exercises is to familiarize ourselves with managing state and handling events in React applications.
+This repository contains my solution to [Exercise 2.1 - 2.5](https://fullstackopen.com/en/part2/rendering_a_collection_modules#exercises-2-1-2-5) from the University of Helsinki's Fullstack Course. The primary goal of these exercises is to familiarize ourselves in manipulating collections in React and getting familiarity with methods such as map and reduce.
 
-## Exercise 1.6 - 1.14 Objectives
+## Exercise 2.1 - 2.5 Objectives
 
 The main objectives of this exercise are to:
 
-1. Learn State in React components
-2. Event handlers and passing functions as props
-3. Updating and managing component state using the useState hook
+1. Learn to manipulate and render collections within React components
+2. Become familiar with functional operators such as map, reduce, find and filter etc...
+3. Further exercises on destructuring for more concise code
