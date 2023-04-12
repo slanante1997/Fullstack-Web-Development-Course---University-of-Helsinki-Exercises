@@ -1,11 +1,12 @@
 import Part from './Part'
+import Header from './Header'
 
   const Course = ({ courses }) => {
     return (
         <div>
           {courses.map((course) => (
             <div key={course.id}>
-              <h1>{course.name}</h1>
+              <Header header={course} />
               <ul>
                 {course.parts.map((part) => (
                   <Part key={part.id} content={part} />
@@ -18,6 +19,7 @@ import Part from './Part'
               </p>
             </div>
           ))}
+      
         </div>
       )
     }
