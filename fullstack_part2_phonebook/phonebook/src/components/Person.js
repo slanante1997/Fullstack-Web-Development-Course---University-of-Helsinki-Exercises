@@ -1,7 +1,6 @@
-const Person = ({ name, key }) => {
-    console.log(name, key)
+const Person = ({ name, number }) => {
     return (
-      <li style={{ listStyleType: "none"}}>{name}</li>
+      <li style={{ listStyleType: "none"}}>{name}, {number}</li>
     )
   }
   
