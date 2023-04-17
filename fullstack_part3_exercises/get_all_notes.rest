@@ -1,0 +1,14 @@
+###
+# Get all contacts
+GET http://localhost:3001/api/contacts
+Content-Type: application/json
+
+###
+# Create a new note
+POST http://localhost:3001/api/contacts
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "number": "1234567890"
+}
